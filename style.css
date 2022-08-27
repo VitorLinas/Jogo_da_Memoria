@@ -146,13 +146,13 @@ body{
     }  
 }
 
-@media(max-height: 700px) and (min-width: 1000px){
+@media(max-height: 800px) and (min-width: 1000px){
     .card{
         width: 100px;
         height: 100px;
     }
 
     #accountant{
-        margin-bottom: 600px;
+        margin-bottom: 570px;
     }
 }
