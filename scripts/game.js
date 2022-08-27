@@ -62,7 +62,6 @@ let game = {
     },
 
 
-    // createCardsFrontTechs(techs);
     createCardsFrontTechs: function(){
 
     this.cards = [];
@@ -102,7 +101,5 @@ createIdWithTech: function (tech){
         [this.cards[randomIndex], this.cards[currentIndex]] = [this.cards[currentIndex], this.cards[randomIndex]];
     }
 },
-
-
 
 };
