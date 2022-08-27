@@ -88,7 +88,9 @@ function flipCard(){
 
 
 function restart(){
-    startGame();
-    let gameOverLayer = document.getElementById("gameOver");
-    gameOverLayer.style.display = 'none';
+    // startGame();
+    // let gameOverLayer = document.getElementById("gameOver");
+    // gameOverLayer.style.display = 'none';
+
+    location.reload();
 }
