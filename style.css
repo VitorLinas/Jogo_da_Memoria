@@ -96,6 +96,10 @@ body{
     #accountant{
         margin-right: 7vw;
     }
+
+    .card_front img{
+        width: 50px;
+    }
 }
 
 @media(max-width: 1000px){
@@ -103,6 +107,8 @@ body{
         width: 100px;
         height: 100px;
     }
+
+    
 }
 
 @media(max-width: 600px){
@@ -116,11 +122,21 @@ body{
     }
 }
 
-@media(max-height: 700px){
+@media(max-width: 400px){
+    .card{
+        width: 60px;
+        height: 60px;
+        /* background-color: yellow; */
+    }
+
+   
+}
+
+/* @media(max-height: 700px){
     .card{
         width: 100px;
         height: 100px;
     }
 
     
-}
+} */
